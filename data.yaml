@@ -1,0 +1,14 @@
+train: F:/NCKH/teamoi/train/images
+val: F:/NCKH/teamoi/valid/images
+test: F:/NCKH/teamoi/train/images
+
+nc: 1
+names:
+  0: car
+
+roboflow:
+  workspace: tea-atp4g
+  project: tea_detect
+  version: 3
+  license: CC BY 4.0
+  url: https://app.roboflow.com/tea-atp4g/tea_detect/3
